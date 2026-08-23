@@ -2,7 +2,7 @@
 
 > Paste study notes and get a deck of flippable question-and-answer flashcards.
 
-**[Live demo](https://su-flashcards.vercel.app)**
+**[Live demo](https://flashcards-mlx.vercel.app)**
 
 Turning a page of lecture notes into flashcards is the slow part of studying. FlashForge takes a raw notes paste, truncates it to 8,000 characters, and sends it to Llama 3.3 on Groq with instructions to return a JSON array of question/answer pairs — between 5 and 15 cards depending on how much content there is. The cards render as a responsive grid, each one a CSS 3D card that flips from question to answer on click.
 
@@ -32,4 +32,4 @@ Requires `GROQ_API_KEY` in `.env.local` (see `.env.example`).
 
 ---
 
-Part of a series of 91 small web apps. [Browse them all](https://su-slopmachine.vercel.app).
+Part of a series of 91 small web apps. [Browse them all](https://lorenzoylosada.vercel.app).
